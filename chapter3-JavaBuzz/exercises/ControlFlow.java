@@ -1,5 +1,5 @@
 // what imports will you need?
-import java.util.*;
+import java.util.Scanner;
 
 // can you remember how to set up your main function?
 public class ControlFlow {
@@ -15,5 +15,6 @@ public class ControlFlow {
     }else{
       System.out.println("Odd");
     }
+    input.close();
   }
 }
